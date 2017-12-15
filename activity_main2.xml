@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:layout_gravity="bottom"
+    >
+    <TextView
+        android:id="@+id/text_view6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="注册"/>
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/bg_register_bottom"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_login_account"/>
+        <EditText
+            android:id="@+id/edit_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="                  请输入昵称"/>
+    </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_register_phone"/>
+            <EditText
+                android:id="@+id/edit_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                  电话号码"/>
+        </FrameLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_register_pwd"
+                />
+            <EditText
+                android:id="@+id/edit_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                  密码"/>
+        </FrameLayout>
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_register_gender"
+                />
+            <EditText
+                android:id="@+id/edit_view5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                  性别"/>
+        </FrameLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="注册"
+            android:textColor="#931d1d"/>
+
+
+
+    </LinearLayout>
+    </RelativeLayout>
